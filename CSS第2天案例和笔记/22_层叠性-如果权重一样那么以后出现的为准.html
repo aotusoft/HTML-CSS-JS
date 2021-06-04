@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        #box1 .hezi2 p {
+            /* 权重：1,1,1 */
+            color: red;
+        }
+        
+        #box2 div .pp {
+            /* 权重：1,1,1 */
+            color: blue;
+        }
+        /* 先计算一下权重，交换一下2个样式的顺序，可以观察到，如果权重一样，后面写的，起作用 */
+    </style>
+</head>
+
+<body>
+    <div class="hezi1" id="box1">
+        <div class="hezi2" id="box2">
+            <div class="hezi3" id="box3">
+                <p class="pp">猜猜我是什么颜色？</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

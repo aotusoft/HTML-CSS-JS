@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        /* 让所有h3的special会变红 因为类不是后代，所以不能用空格，而使用.spical*/
+        
+        h3.spical.teshu {
+            color: red;
+        }
+        /* 让所有p的special会变红 */
+        
+        p.spical.teshu {
+            color: green;
+        }
+        
+        p.spical {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>我是一个标题</h3>
+    <h3 class="spical teshu">我是一个标题</h3>
+    <!-- 我希望变成红的 -->
+    <h3 class="spical">我是一个标题</h3>
+
+    <p>我是一个段落</p>
+    <!-- 我希望变成红的 -->
+    <p class="spical tesu">我是一个绿色段落</p>
+    <p class="spical">我是一个段落</p>
+    <a href="" class="spical">haha,我是一个链接</a>
+
+    <a href="">haha,我是一个链接</a>
+</body>
+
+</html>
