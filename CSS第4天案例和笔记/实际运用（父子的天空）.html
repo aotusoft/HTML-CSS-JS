@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .news {
+            width: 500px;
+            height: 400px;
+            border: 1px solid #000;
+        }
+        
+        h3 {
+            height: 50px;
+        }
+        
+        h3 span {
+            /* 问题来了 让所有span左浮动，页面很搞笑*/
+            float: left;
+            background-color: pink;
+        }
+        
+        ul li {
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="news">
+        <h3>
+            <span class="today ">今日新闻</span>
+            <span class="date">2020年4月7日</span>
+        </h3>
+        <ul>
+            <li>我是新闻，新闻啊，新闻啊，我是新闻，我是新闻</li>
+            <li>我是新闻，新闻啊，新闻啊，我是新闻，我是新闻</li>
+            <li>我是新闻，新闻啊，新闻啊，我是新闻，我是新闻</li>
+            <li>我是新闻，新闻啊，新闻啊，我是新闻，我是新闻</li>
+            <li>我是新闻，新闻啊，新闻啊，我是新闻，我是新闻</li>
+            <li>我是新闻，新闻啊，新闻啊，我是新闻，我是新闻</li>
+        </ul>
+    </div>
+</body>
+
+</html>
