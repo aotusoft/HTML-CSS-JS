@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        h1 {
+            /*块级元素*/
+            display: inline;
+            width: 400px;
+            height: 90px;
+            /* 如果没有宽度，是什么样的？高度呢？ */
+            background-color: pink;
+        }
+        
+        span {
+            /*行内元素*/
+            /* 我们span增加宽度和高度的时候，有作用吗？ */
+            width: 400px;
+            height: 90px;
+            background-color: pink;
+        }
+        
+        p {
+            /* 在HTML中文本级标签，在css中它是一个块级元素*/
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 等级森严的 -->
+    <!-- h1是一个块级元素 在HTML中称为容器标签-->
+    <!-- 现在是几行？ -->
+    <h1>哈哈哈哈</h1>
+    <h1>嘻嘻嘻嘻</h1>
+
+    <!-- 下面是一行还是2行？ -->
+    <!-- 这是一个行内元素 -->
+    <span>哈哈哈哈</span>
+    <span>嘻嘻嘻嘻</span>
+
+    <p>
+        我是一个小段落
+    </p>
+</body>
+
+</html>
